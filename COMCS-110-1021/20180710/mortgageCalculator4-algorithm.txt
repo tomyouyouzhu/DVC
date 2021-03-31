@@ -1,0 +1,46 @@
+Name:  mortgageCalculator
+Course: COMSC-110-1021
+
+1. Objective
+calculate loan
+2. Requirements
+INPUT:
+user input amount
+user input rate
+
+PROCESSING: the objective broken down into major parts
+struct loan information
+calculation
+output loan information by formationg
+
+OUTPUT:
+Amount borrowed (user input)
+Annual interest rate (user input) 
+Payback period (programmer input) = 30 Years
+Monthly payment (output)
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+amount user's loan amount
+years loan years
+rate loan rate
+monthpay monthlypayment
+
+
+3. Instructions
+10 instructions
+20 please input the amount
+25 please input the rate
+30 calculate
+35 output
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested: 270000 5.125    and  Input values if any: and expected results. 
+
+10 instructions
+20 270000
+25 5.125
+30 calculate
+35 Amount borrowed (user input) = $270000
+   Annual interest rate (user input) = 5.125%
+   Payback period (programmer input) = 30 Years
+   Monthly payment (output) = $1470.11

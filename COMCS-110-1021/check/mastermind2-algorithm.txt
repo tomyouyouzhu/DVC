@@ -1,0 +1,174 @@
+Name: kunming zhu
+
+Course: COMSC-110-1021
+
+
+
+1. Objective:
+Mastermind
+
+
+
+2. Requirements
+INPUT:
+
+4 colors in 4 positions from blue, yellow, red, and green.
+
+
+
+
+PROCESSING: the objective broken down into major parts
+
+load mastermindScore.txt
+
+Computer make a random with 4 colors in 4 positions.
+
+human guesses ( no more then 10 times)
+
+Result and ask if want to play more
+
+save score to mastermindScore.txt
+
+
+
+OUTPUT:
+
+Instruction 
+"Ok, please make a guess."
+
+"Correct colors: number, correct positions: number."
+
+"Sorry, you tried." Or "Good, you win!"
+
+"Do you want to play more?"
+
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+a 
+list of score
+mastermindScore.txt
+
+i for loop
+min min score
+
+
+c1 computer position 1
+
+C2 computer position 2
+
+C3 computer position 3
+
+C4 computer position 4
+
+
+H1 human position 1
+
+H2 human position 1
+
+H3 human position 1
+
+H4 human position 1
+
+
+Count trying times
+
+
+CountCCR 
+
+countCCB
+
+countCCY
+
+countCCG
+
+
+countHCR
+
+countHCB
+
+countHCY
+
+countHCG
+
+
+
+Sumc the number of the same colors
+
+Sump the number of the same positions.
+
+
+user choice
+
+
+
+
+
+3. 
+
+Instructions
+
+10 instructions
+
+11 the best score is
+
+15 computer make one rule
+
+16 ask human input
+
+20 human input
+
+25 check how many colors are the same.
+
+30 check how many positions are the same.
+
+35 output the number of same colors, and the number of same positions.
+
+40 if incorrect loop to 16 and count 1 time.
+
+45 if correct output "GOOD!"
+
+50 if time=10 output "sorry!"
+
+51 save score into mastermindScore.txt
+
+55 ask if human want to play more.
+
+
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+
+
+
+10 instructions
+
+11 the best score is 10
+
+15 computer make one rule RRRR
+
+16 ask human input 
+
+20 human input BBBB
+
+25 check how many colors are the same. 0
+
+30 check how many positions are the same. 0
+
+35 output the number of same colors, and the number of same positions. 0 0
+
+40 if incorrect loop to 16 and count 1 time.
+
+16 ask input
+
+20 RRRR
+
+25 4
+
+30 4
+
+35 4 4 
+
+45 if correct output "GOOD!"

@@ -1,0 +1,64 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+guessing game
+
+2. Requirements
+INPUT:
+use guessing number
+score.txt
+computer random number
+use guess count number
+
+PROCESSING: the objective broken down into major parts
+read score.txt
+computer random a number
+ask use guess
+use guess
+computer replys high or low or correct
+write to score.txt
+
+
+OUTPUT:
+form score.txt last user's palying 
+ask user to guess
+tell user the number is high or low or correct
+thanks for playing
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+score.txt
+random number
+user guess number 
+user guessing count
+
+
+3. Instructions
+10 instructions
+15 read score.txt and input last user's playing information
+20 random a number
+25 ask user to guess
+30 user input
+35 tell user the input number is correct or too high or low 
+40 count 1 to the count number 
+45 if correct 50 if not 25
+50 thanks for playing
+55 write to score.txt
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested: 1    and  Input values if any: and expected results. 
+
+10 instructions
+15 read score.txt and input last user's playing information
+20 random 1
+25 ask user to guess
+30 user input 2
+35 higher 
+40 count 1 to the count number =1
+25 ask user to guess
+30 user input 1
+35 correct 
+40 count 1 to the count number =2
+50 thanks for playing 
+55 write to score.txt

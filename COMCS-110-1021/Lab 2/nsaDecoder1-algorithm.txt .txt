@@ -1,0 +1,42 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+nsadecoder
+
+2. Requirements
+INPUT:
+secret.txt
+
+PROCESSING: the objective broken down into major parts
+input file 
+dncode line by line
+output to the console
+close input file
+close output file
+OUTPUT:
+output user input ASCII code +1 to the console
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+secret.txt
+user inputing ASCII +1 
+user choice
+
+3. Instructions
+10 open secret.txt for input
+20 input a line from the input file
+30 decode the line 
+40 output the decoded line to the console
+50 if EOF skip to instruction 60 else skip to instruction 20
+60 close input file
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:  Hello, World   and  Input values if any: and expected results. 
+
+10 open secret.txt for input
+20 input a line from the input file
+30 decode the line 
+40 output the decoded line to the console
+50 if EOF skip to instruction 60 else skip to instruction 20
+60 close input file

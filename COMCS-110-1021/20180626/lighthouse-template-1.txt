@@ -1,0 +1,36 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective: how fa you can see a lighthouse
+
+2. Requirements
+INPUT:
+the height of the lighthouse in feet 
+
+
+PROCESSING: the objective broken down into major parts
+calculate the distance in miles
+calculate distance:distance in miles = square root of: 0.8 times the height in feet
+
+
+OUTPUT:
+Output the answer with a label and with both the input and output values
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+heright
+distance
+
+3. Instructions
+10 instruction
+11 input height 
+15 calculate distance:distance in miles = square root of: 0.8 times the height in feet
+20 output sentences
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:   100  and  Input values if any: and expected results. 
+
+10 instruction
+11 100
+15 distance=square root of: 0.8 times 100
+20 output 100 foot tall lighthouse can be seen from 9 miles away

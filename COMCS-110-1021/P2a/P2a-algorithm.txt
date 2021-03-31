@@ -1,0 +1,77 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+P2a
+
+2. Requirements
+INPUT:
+user input file name
+user output file name
+
+PROCESSING: the objective broken down into major parts
+ask user to input file names
+if user press enter with blank use default names.
+
+OUTPUT:
+user's input and output file names
+press enter to continue
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+string iFileName is the input file name
+string dFileName is the default file name
+string oFileName is the output file name
+char ch is user choice
+
+3. Instructions
+10 instructions
+20 ask user for input file name
+25 user input
+30 ask user for output file name
+35 user input
+40 output input file name and output file name
+50 ask user to press enter key to contunue
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+10 instructions
+20 ask user for input file name
+25 user input (user chooses default)
+30 ask user for output file name
+35 user input (user chooses default)
+40 Input file: fileContainingEmails.txt
+   Output file: copyPasteMyEmails.txt
+50 ask user to press enter key to contunue
+
+test case#2
+10 instructions
+20 ask user for input file name
+25 user input x.txt
+30 ask user for output file name
+35 user input (user chooses default)
+40 Input file: x.txt
+   Output file: x.txt
+50 ask user to press enter key to contunue
+
+test case#3
+10 instructions
+20 ask user for input file name
+25 user input (user chooses default)
+30 ask user for output file name
+35 user input x.txt
+40 Input file: fileContainingEmails.txt
+   Output file: x.txt
+50 ask user to press enter key to contunue
+
+test case#4
+10 instructions
+20 ask user for input file name
+25 user input x.txt
+30 ask user for output file name
+35 user input y.txt
+40 Input file: x.txt
+   Output file: y.txt
+50 ask user to press enter key to contunue

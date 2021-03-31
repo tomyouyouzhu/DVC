@@ -1,0 +1,49 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective: miles/gallon
+
+2. Requirements
+INPUT:
+how many gallons of your car's tank?
+how many miles you already drive?
+how many gallons of fuel did you use?
+
+PROCESSING: the objective broken down into major parts
+input how many gallon about the tank
+input how many miles drive
+input how many fuel used
+calculate how many gallon per mile
+calculate how many gallon fuel left
+calculate how many miles can drive
+
+OUTPUT:
+how many mile can drive 
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+tank feul capacity
+mile1 miles already drived
+mile2 miles will drive
+gallon1 fuel used
+gallon2 fuel left
+gallonpermile how many gallons of feul be used on one mile
+
+3. Instructions
+10 instruction
+11 input mile1
+12 input gallon1
+15 calculate gallonpermile=gallon1/mile1
+20 calcalate mile2=gallon2/gallonpermile
+25 output mile2 with sentences
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested: 100 miles 10 gallon 100 gallon tank    and  Input values if any: and expected results. 
+
+10 instruction
+11 100
+12 10
+15 0.1
+20 900
+25 output the left fuel can drive 900 miles.

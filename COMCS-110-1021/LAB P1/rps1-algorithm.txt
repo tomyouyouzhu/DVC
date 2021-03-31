@@ -1,0 +1,76 @@
+Name: kunming zhu
+
+Course: COMSC-110-1021
+
+
+1. Objective: Rock, Paper, Scissors
+
+
+2. Requirements
+
+INPUT:
+human the choice of human (R,P,S or Q)
+
+
+
+PROCESSING: the objective broken down into major parts
+
+instrucation
+
+ask human to input a chocie.
+
+creat comuputer's choice
+
+output result 
+
+let human to make another choice
+
+
+
+OUTPUT:
+
+Choose: [R=rock, P=paper, S=scissors, or Q=quit]: 
+
+Computer:  Human: 
+
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+
+HC human choice
+
+CC computer choice
+
+QW quit word
+
+3. 
+
+Instructions
+
+10 instructions
+
+11 input HC
+
+12 creat CC
+
+15 output HC CC 
+
+16 instructions
+
+
+
+4. 
+
+Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested: HC=R CC=C    and  Input values if any: and expected results. 
+
+
+10 instructions
+
+11 R
+
+12 C
+
+15 Computer: C  Human: R human wins
+
+16 instructions

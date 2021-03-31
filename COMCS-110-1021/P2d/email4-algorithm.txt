@@ -1,0 +1,112 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+P2d
+
+2. Requirements
+INPUT:
+user input file name
+user output file name
+
+PROCESSING: the objective broken down into major parts
+instructions
+user input
+checking input
+output input and output file names
+hold wait for user press enter key
+open txt file, find @ 
+check letters at front of @ 
+check letters after @
+check dot position
+check duplicates
+output noduplicates email address
+
+OUTPUT:
+user's input and output file names
+press enter to continue
+email address 
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+string iFileName is the input file name
+string dFileName is the default file name
+string oFileName is the output file name
+char ch is user choice
+line for read the file
+check for checking emails 
+i for loop
+e for loop
+s for loop
+char hasdot for checking dot
+int dotpos for the position of dot
+string anemail for outputing enmail
+
+3. Instructions
+10 instructions
+20 ask user for input file name
+25 user input
+30 ask user for output file name
+35 user input
+40 output input file name and output file name
+50 ask user to press enter key to contunue
+51 check input file about emails
+52 check duplicates
+55 output emails and number of emails
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+10 instructions
+20 ask user for input file name
+25 user input 0.txt
+30 ask user for output file name
+35 user input (user chooses default)
+40 Input file: 0.txt
+   Output file: 0.txt
+50 ask user to press enter key to contunue
+51 check input file about emails
+52 check duplicates
+55 0 emails
+
+
+test case#2
+10 instructions
+20 ask user for input file name
+25 user input 3.txt
+30 ask user for output file name
+35 user input (user chooses default)
+40 Input file: 3.txt
+   Output file: 3.txt
+50 ask user to press enter key to contunue
+51 check input file about emails
+52 check duplicates
+55 rburns@dvc.edu; x@dvc.edu; y@dvc.edu; z@dvc.edu; rdb3@rdb3.com; tina@rdb3.com; rdb3@com.com; 7emails
+
+
+test case#3
+10 instructions
+20 ask user for input file name
+25 user input 7.txt
+30 ask user for output file name
+35 user input 7.txt
+40 Input file: 7.txt
+   Output file: 7.txt
+50 ask user to press enter key to contunue
+51 check input file about emails
+52 check duplicates
+55 AWestcott@dvc.edu; bosborne@dvc.edu; CDuke@dvc.edu; CHaynes@dvc.edu; 4 emails
+
+test case#4
+10 instructions
+20 ask user for input file name
+25 user input 9.txt
+30 ask user for output file name
+35 user input 9.txt
+40 Input file: 9.txt
+   Output file: 9.txt
+50 ask user to press enter key to contunue
+51 check input file about emails
+52 check duplicates
+55  0 emails

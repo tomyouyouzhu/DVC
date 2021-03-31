@@ -1,0 +1,57 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+nsaEncoder
+
+2. Requirements
+INPUT:
+use file to input
+
+PROCESSING: the objective broken down into major parts
+input file 
+encode line by line
+output to secret.txt 
+output to the console
+close input file
+close output file
+
+
+OUTPUT:
+secret.txt
+console
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+user inputing
+user inputing ASCII +1 
+input file name
+secret.txt
+user choice
+
+3. Instructions
+10 prompt for the input file name
+20 open the input file for input
+30 open secret.txt for output
+40 input a line from the input file
+50 encode the line
+60 output the encoded line to the output file
+70 output the encoded line to the console
+75 if EOF skip to instruction 80 else skip to instruction 40
+80 close output file
+90 close input file
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+
+
+
+10 prompt for the input file name
+20 open the input file for input
+30 open secret.txt for output
+40 input a line from the input file
+50 encode the line
+60 output the encoded line to the output file
+70 output the encoded line to the console
+75 if EOF skip to instruction 800 else skip to instruction 400
+80 close output file
+90 close input file

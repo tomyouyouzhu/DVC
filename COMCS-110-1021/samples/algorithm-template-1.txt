@@ -1,0 +1,24 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+
+2. Requirements
+INPUT:
+
+
+PROCESSING: the objective broken down into major parts
+
+
+OUTPUT:
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+
+
+3. Instructions
+10 
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 

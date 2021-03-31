@@ -1,0 +1,47 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+nameSorter
+2. Requirements
+INPUT:
+five names
+
+PROCESSING: the objective broken down into major parts
+create an array
+input names
+check for duplicates
+sorting
+output
+
+OUTPUT:
+outpur names alphabetically
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+string array
+int loop number
+
+
+3. Instructions
+10 instructions
+20 create array
+25 input names
+30 check duplicates
+35 sorting
+40 output
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+
+10 instructions
+20 create array
+25 input names Alex Sasha beth Carl Pat
+30 check duplicates
+35 sorting
+40 Alex
+   beth
+   Carl
+   Pat
+   Sasha
+

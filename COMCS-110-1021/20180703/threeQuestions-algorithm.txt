@@ -1,0 +1,56 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+three questions
+2. Requirements
+INPUT:
+answer three times
+
+PROCESSING: the objective broken down into major parts
+computer asks questions
+human answer
+computer replys right or wrong
+repeat two more times
+output how many right and wrong
+
+OUTPUT:
+what is the name of the first computer?
+do you like coding?
+do you want to do coding jobs?
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+the first answer
+the second answer
+the third answer
+
+3. Instructions
+10 instructions
+11 the first question
+12 human answer
+15 output right or wrong and score earned 
+20 the second question
+21 human answer
+25 output right or wrong and score earned 
+30 the third question
+31 human answer
+35 output right or wrong and score earned 
+40 output total score
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:  1. 1+1=? 2. 1+2=? 3. 1+3=?   answers 2.   4.   6
+   and  Input values if any: and expected results. 
+
+10 instructions
+11 1+1=?
+12 2
+15 right score:1
+20 1+2=?
+21 4
+25 incorrect score:1
+30 1+3=?
+31 6
+35 incorrect score:1
+40 total score:1
+

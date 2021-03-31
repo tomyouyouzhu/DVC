@@ -1,0 +1,74 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+game of war
+
+2. Requirements
+INPUT:
+choice Y/N to play again
+
+PROCESSING: the objective broken down into major parts
+random a number for computer card value
+
+random a number for computer card suit
+
+random a number for human card value
+
+random a number for human card suit
+
+output cards' values and compare
+
+output who win
+
+if tie 
+repeat again.
+
+ask want to play more
+
+OUTPUT:
+computer card--value and suit
+
+human card--value and suit
+
+result
+ask want to play more
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+array for value
+array for suit
+c1 computer random for value
+c2 computer random for suit
+h1 human random for value
+h2 human random for suit
+d difference of values
+
+3. Instructions
+10 instructions
+
+20 creat computer card's value and suit
+
+21 creat human card's value and suit
+
+25 compare cards.
+
+30 tell result if tie to 20
+
+40 ask to play more
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:c:9 club h:9  shapes   and  Input values if any: and expected results. 
+
+10 instructions
+
+20 creat computer card's value and suit 9 club
+21 creat human card's value and suit
+ 9 shapes
+25 compare cards.
+ tie
+20 creat computer card's value and suit 9 club
+21 creat human card's value and suit
+ 10 shapes
+30 human wins
+40 ask to play more

@@ -1,0 +1,64 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+
+2. Requirements
+INPUT:
+the number of years in which you've lived, including your birth year and the current year
+the number of leap years in your life
+the number of days in your birth year before you were born, including your day of birth
+the number of days remaining in the current year after the due date for this lab, excluding that
+date. 
+
+PROCESSING: the objective broken down into major parts
+Add how many days I have lived at my birth year.
+
+Add how many days I live in 2018 by the due day.
+
+Add how many days I have lived from my birth year to 2018
+
+OUTPUT:
+Three lines: 
+one showing your date of birth, 
+one showing the due date, 
+and 
+one with your calculated age in days.
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+
+Days1=days lived in my birth year.
+
+Days2=days between birth year to 2018
+
+Days3=days lived in 2018
+
+3. Instructions
+10 instruction 
+
+20 input days lived in my birth year
+
+21 input days between birth year to 2018
+
+22 input days lived in 2018
+25 sum=days1+days2+days3
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:  2000 1 1   day1=365 days2=6570 days3=174 and  Input values if any: and expected results. 
+
+
+10 instruction
+
+20 365
+
+21 6570
+
+22 174
+
+25 sum=365+6570+174=7109
+
+30 output birthday is 2000 1 1
+
+31 output due day is 2018 6 24
+
+32 you are 7109 days old by the due day.

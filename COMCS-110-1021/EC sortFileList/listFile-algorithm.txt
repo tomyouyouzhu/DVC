@@ -1,0 +1,137 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+listsort
+2. Requirements
+INPUT:
+file name
+scores in the file
+
+PROCESSING: the objective broken down into major parts
+ask to input file name
+open file
+read scores into an list
+check invalid scores.
+out put array
+sort scores
+output sort scores
+calculate highest, lowest, average scores, number of scores >average, number of scores=100
+output highest, lowest, average scores, number of scores >average, number of scores=100
+
+OUTPUT:
+unsort scores
+sort scores
+highest, lowest, average scores, number of scores >average, number of scores=100
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+scores.txt
+a double array for scores
+int i for loop
+double average  for average scores(0-100)
+double min for lowest scores
+double max for max scores
+int ngreater for number of scores>average
+int nlesser for number of scores<average
+int nperfect for number of 100
+
+3. Instructions
+10 instructions
+20 ask input file name
+30 open file
+35 read how many scores
+40 check invalid scores
+50 write into array
+55 output unsort array
+60 sort
+65 output sort array
+70 calculate highest
+75 output highest
+80 calculate lowest
+85 output lowest
+90 calculate average
+100 output average
+105 calculate number>average
+110 output number>average
+115 calculate number<average
+120 output number<average
+130 end
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+
+1. Just valid scores between 0-100 but no perfect scores
+
+10 instructions
+20 ask input file name scores.txt
+30 open file
+35 read how many scores 10
+40 check invalid scores 0
+50 write into array
+55 output unsort array 10 10 10 10 10 10 10 10 10 10
+60 sort 
+65 output sort array  10 10 10 10 10 10 10 10 10 10
+70 calculate highest 10
+75 output highest 10
+80 calculate lowest 10
+85 output lowest 10
+90 calculate average 10
+100 output average 10
+105 calculate number>average 0
+110 output number>average 0
+115 calculate number<average 0
+120 output number<average 0
+130 end
+
+2. Valid scores with one or more perfect scores
+
+10 instructions
+20 ask input file name score.txt
+30 open file
+35 read how many scores 3
+40 check invalid scores
+50 write into array 100 100 10
+55 output unsort array 100 100 10
+60 sort 100 100 10
+65 output sort array 100 100 10
+70 calculate highest 100
+75 output highest 100
+80 calculate lowest 10
+85 output lowest 10
+90 calculate average 70
+100 output average 70
+105 calculate number>average 2
+110 output number>average 2
+115 calculate number<average 1
+120 output number<average 1
+130 end
+
+3. At least one invalid score
+
+10 instructions
+20 ask input file name scores.txt
+30 open file
+35 read how many scores 2
+40 check invalid scores -10
+50 write into array 10
+55 output unsort array 10
+60 sort
+65 output sort array 10
+70 calculate highest 10
+75 output highest 10
+80 calculate lowest 10
+85 output lowest 10
+90 calculate average 10
+100 output average 10
+105 calculate number>average 0
+110 output number>average 0
+115 calculate number<average 0
+120 output number<average 0
+130 end
+
+4. Empty file
+10 instructions
+20 ask input file name scores.txt
+30 open file
+35 read how many scores 0
+130 end

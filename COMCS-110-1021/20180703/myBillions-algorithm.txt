@@ -1,0 +1,50 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+mybillions
+
+2. Requirements
+INPUT:
+how many weeks to become a billionaire
+
+PROCESSING: the objective broken down into major parts
+calculate how many weeks to become a thousandaire.
+
+0.05*(2^(n1+1)-1)=1000.0
+  15
+calculate how many weeks to become a millionaire.
+
+0.05*(2^(n2+1)-1)=1000000.0
+  25
+calculate how many weeks to become a billionaire.
+
+0.05*(2^(n3+1)-1)=1000000000.0  35
+
+OUTPUT:
+In {your answer here} weeks, I will be a thousandaire!
+
+In {your answer here} weeks, I will be a millionaire!
+
+In {your answer here} weeks, I will be a billionaire!
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+money
+
+week
+
+
+3. Instructions
+10 instructions
+
+15 In {your answer here} weeks, I will be a thousandaire!
+
+20 In {your answer here} weeks, I will be a millionaire!
+
+25 In {your answer here} weeks, I will be a billionaire!
+
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 

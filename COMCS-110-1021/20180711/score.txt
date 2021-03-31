@@ -1,0 +1,1 @@
+Last player took 10 guesses to guess the correct number.

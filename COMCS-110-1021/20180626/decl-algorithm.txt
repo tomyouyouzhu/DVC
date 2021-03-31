@@ -1,0 +1,54 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective: decl yourself
+
+2. Requirements
+INPUT:
+prompt the user for their lucky number (integer).
+prompt the user for their favorite movie (text)
+prompt the user for their age (decimal)
+prompt the user for their first letter in their name (single character)
+
+
+PROCESSING: the objective broken down into major parts
+input lucky number
+input favorit movie
+input age
+input first letter in their name
+
+
+OUTPUT:
+output these data values in a sentence with appropriate lablels.
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+number
+movie
+age
+first letter
+
+3. Instructions
+10 instruction 
+11 input lucky number
+15 instruction 
+16 input favorite movie
+20 instruction
+21 input age
+25 instruction
+26 input first letter
+30 output sentence
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:   9 Change 30 Y  and  Input values if any: and expected results. 
+
+10 instruction
+11 9
+15 instruction
+16 Change
+20 instruction
+21 30
+25 instruction
+26 Y
+30 output datas with sentences.

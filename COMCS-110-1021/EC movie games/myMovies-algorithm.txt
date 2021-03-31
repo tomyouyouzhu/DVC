@@ -1,0 +1,79 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+movie
+
+2. Requirements
+INPUT:
+user guess int
+user input movie name string
+user input movie year int
+user choice for play Y/N
+
+PROCESSING: the objective broken down into major parts
+read the txt file 
+write in a list
+random a number 
+ask the question based on the number
+user answer
+tell user right or wrong, if wrong tell user the correct answer
+keep the score
+ask user play again or want to input a new movie and year
+if user answer play, loop to random number. 
+if user want to input
+open the txt file
+user input movie name
+user input year.
+ask user again.ask user play again or want to input a new movie and year
+if user choose quit
+output the score
+end
+
+OUTPUT:
+intructions
+movie name
+correct year of the movie
+question about paly again, quit, or write 
+score
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+table for movie and year.
+number for random int
+a int for user input movie year
+a char for user choice Q for quit
+
+3. Instructions
+10 instructions
+20 open the txt file
+30 write in the table
+40 random a number 
+50 ask the question based on the number in the list
+60 user answer
+70 tell user right or wrong and score
+80 ask user want to play . quit, or write
+90 if play 40 if quit 900 if write 100
+100 open the txt file 
+110 ask user to input the movie name
+120 ask user to input the movie year
+130 write in the file and 80
+900 end
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+
+10 instructions
+20 open the txt file   movieData.txt
+30 write in the table 
+40 random a number  1
+50 ask the question based on the number in the list <<face off>>
+60 user answer 2000
+70 tell user right or wrong and score incorrect 1990
+80 ask user want to play . quit, or write write
+100 open the txt file  movieData.txt
+110 ask user to input the movie name heat
+120 ask user to input the movie year 1990
+80 ask user want to play . quit, or write write Q
+900 end

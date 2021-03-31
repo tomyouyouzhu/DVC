@@ -1,0 +1,81 @@
+Name: kunming zhu 
+Course: COMSC-110-1021
+
+1. Objective: average age of people in the room
+
+2. Requirements
+INPUT:
+Each person's age.
+
+PROCESSING:
+"Hello, we are going to get the average age of people in the room, so please input your age by years (from 0 to 200)."
+Input age and add the number to the sum. Count 1 to the count.
+Use sum divid count.
+
+
+OUTPUT:
+Label "Hello, we are going to get the average age of people in the room, so please input your age (from 0 to 200)."
+Label "please input correct numbers (from 0 to 200)."
+Label "there is no people in the room."
+Label "the average age of people in the room is ."
+
+DATA:
+Age[integer]
+count[integer]
+Average[decimal] keep one digit decimal. 
+
+
+3. Instructions
+10 output "Hello, we are going to get the average age of people in the room, so please input your age (from 0 to 200)."
+11 sum=0
+12 count=0
+13 average=0
+15 input age 
+16 add to sum
+17 if no people branch to 30
+18 if age in not in [0, 200] loop to 15 and output"please input correct numbers (from 0 to 200)."
+20 add 1 to count
+21 loop to 15 
+25 if no more people branch to 40
+30 output "there is no people in the room."
+40 use sum divid count to get the average age number
+50 output "the average age of people in the room is "
+
+
+
+
+4. Test Cases
+Test Case#1: What is being tested: 76 89 43    and  Input values if any:
+
+10 output "Hello, we are going to get the average age of people in the room, so please input your age (from 0 to 200)."
+15 76
+16 sum=0+76=76
+20 count=0+1=1
+15 89
+18 sum=76+89=165
+20 count=1+1=2
+15 43
+18 sum=165+43=208
+20 count=2+1=3
+25 to 40
+40 208/3=69.3
+50 the average age of people in the room is 69.3
+
+
+Test case#2 : 0 people 
+
+10 output "Hello, we are going to get the average age of people in the room, so please input your age (from 0 to 200)."
+15 no people 
+16 to 30
+30 there is no people in the room
+
+
+
+Test case#3 : ten 
+
+
+10 output "Hello, we are going to get the average age of people in the room, so please input your age (from 0 to 200)."
+15 ten
+17 please input correct numbers (from 0 to 200).
+
+

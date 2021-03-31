@@ -1,0 +1,51 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+factorial
+
+2. Requirements
+INPUT:
+user input a number
+
+PROCESSING: the objective broken down into major parts
+ask user to input a number
+
+calculate number!
+
+output
+
+OUTPUT:
+output number! queivalent result
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+a user input number int
+b result int
+
+3. Instructions
+10 instructions
+
+20 ask user to input
+
+25 user input
+
+30 calculate
+
+40 output result
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:  5   and  Input values if any: and expected results. 
+
+
+
+
+10 instructions
+
+20 ask user to input 
+
+25 user input. 5
+
+30 calculate
+
+40 5 x 4 x 3 x 2 x 1, or 120

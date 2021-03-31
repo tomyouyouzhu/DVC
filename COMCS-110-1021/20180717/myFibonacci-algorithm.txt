@@ -1,0 +1,39 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+fibonacci
+
+2. Requirements
+INPUT:
+a sequence number
+
+
+PROCESSING: the objective broken down into major parts
+ask to input a number
+count its sequence number
+output fibonacci numbers
+
+OUTPUT:
+fibonacci numbers 
+The Fibonacci number at index is .
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+int n input number >0
+int m finbonacci number
+
+3. Instructions
+10 instructions
+20 input index number
+25 calculation
+30 output finbonacci number
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested: 6    and  Input values if any: and expected results. 
+
+10 instructions
+20 input index number 6
+25 calculation 0 1 1 2 3 5 8
+30 0 1 1 2 3 5 8 
+   The Fibonacci number at index 6 is 8.

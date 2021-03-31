@@ -1,0 +1,95 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective: how many days
+
+2. Requirements
+INPUT:
+what is your birth year? 
+what is your birth month?
+What is your birth day?
+(Use the year can be divide by 4, than it is a leap year, if the birth month is January or February, add one day to the sum.) 
+
+
+PROCESSING: the objective broken down into major parts
+Tell users that we are going to count how many days old until the due day.
+Input each user's birth year, birth month, birth day.
+Calculate how many days old until the due day.
+
+OUTPUT:
+User's name
+How many days old the user's is.
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+Birth year
+Birth month
+Birth day
+Sum = sum of the days.
+
+3. Instructions
+10 set sum=174
+20 output "Hi, I can help you to calculate how many days old you are when the due day.please input your birth year, month and data with enter one by one by numbers."
+25 input year (should between 1900 to 2017)
+26 input month (from 1 to 12)
+27 input data (from 1 to 31)
+31 check year, month and data match or not
+32 if match branch to 40
+33 if not, loop to 25
+40 use (2017-year)*365 and add to sum
+41 use (2017-year)/4 and add integer to sum
+42 if month = 2 use 365-((month-1)*30+data+1) add to sum
+43 if month = 3 use 365-((month-1)*30+data-1) add to sum
+44 if month = 4 or 5 use 365-((month-1)*30+data) add to sum
+45 if month = 6 or 7 use 365-((month-1)*30+data+1) add to sum
+46 if month = 8 use 365-((month-1)*30+data+2) add to sum
+47 if month = 9 or 10 use 365-((month-1)*30+data+3) add to sum
+48 if month = 11 or 12 use 365-((month-1)*30+data+4) add to sum
+49 if month = 1 use 365-data ad to sum
+50 check if year can be divide by 4 and month is greater than 2 add 1 to sum
+60 output "You are sum days old until due day."
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested: 2000 2 2   and  Input values if any: and expected results. 
+
+10 sum=174
+20 Hi, I can help you to calculate how many days old you are when the due day.please input your birth year, month and data with enter one by one by numbers."
+25 2000
+26 2
+27 2
+31 match
+40 (2017-2000)*365=6205 sum=174+6570=6379
+41 (2017-2000)/4=4 sum=6379+4=6383
+42 365-((2-1)*30+2+1) sum=6383+334=7083
+50 2000/4=250 2=2
+60 output "You are 6717 days old until due day."
+
+
+Test case#2: 1980 10 10
+
+10 sum=174 
+20 Hi, I can help you to calculate how many days old you are when the due day.please input your birth year, month and data with enter one by one by numbers."
+25 1980
+26 10
+27 10
+31 match
+40 (2017-1980)*365=13505 sum=174+13505=13679
+41 (2017-1980)/4=9 sum=13679+9=13688
+42 365-((10-1)*30+10+3)=82 sum=-13688+82=13770
+50 1980/4=495 10>2 sum=13770+1=13771
+60 output "You are 13771 days old until due day."
+
+
+
+Test case#3: 2020 ten 51
+
+10 sum=174
+20 Hi, I can help you to calculate how many days old you are when the due day.please input your birth year, month and data with enter one by one by numbers."
+25 2020
+31 back to 25
+25 
+
+
+ 

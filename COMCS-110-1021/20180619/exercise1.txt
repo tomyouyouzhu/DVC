@@ -1,0 +1,69 @@
+﻿Name: kunming zhu
+
+Course: COMSC-110-1021
+0. 
+revise averageAge-algorithm.txt that we developed in class to work with additional test cases.
+
+1. Copy each of the following parts into file exercise1.txt and complete.
+
+1a. Explain in words what are the 3 control structures and how each of the 3 control structures 
+works in general.
+
+1b. Explain in words what are the 3 kinds of programming errors and give examples.
+
+1c. What are the 5 functions of all computers?
+
+1d. Explain in words what is a statement and what is an expression and what is the difference.
+
+1e. What are the 2 major categories of software and the 3 subcategories of each.
+
+1f. What are the 3 language translators and how do they work? They translate what to what?
+
+2. Using the course algorithm template, write a complete algorithm to calculate the average 
+height of everyone in the classroom. Name your algorithm file: averageHeight-algorithm.txt
+3. 
+Please submit the following files:
+averageAge-algorithm.txt
+averageHeight-algorithm.txt
+exercise1.txt
+
+
+
+
+1a— sequential: one by one by the order of them.
+    
+    selection: make decisions to choose.
+    
+    repetition: come back to some line to loop and repeat.
+
+
+
+1b— syntax: grammar issues are made by programmers. Such as spelling issues and formation issues.
+    
+    logic: logic issues are made by programmers. Such as comparing a, b and c which is greater, but only compare a and b forget c.
+            execution: things computers cannot do. Such as 10 divid 0. 
+
+
+
+1c— input, processing, output, storage, communication
+
+
+
+1d— a statement is one complete instruction, but it may be on more than one line, and it usually ends in a “;”.
+    
+    a expression is a part of a statement.  
+
+
+
+1e— application 1. Productivity 2. Education 3. Entertainment 
+    
+    system 1. Operating 2. Utilities 3. Language 
+
+
+
+1f— compiler. It checks syntax issues totally first. If there is no more syntax issues, it execute the program.
+    
+    interpreter. It checks the program line by line and execute the program at the same time.
+    
+    assembler. Low level language, and it is special. Each assembler language is specific for a particular computer.
+

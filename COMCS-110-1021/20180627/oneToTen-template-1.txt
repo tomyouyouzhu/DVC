@@ -1,0 +1,49 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective: oneToTen
+
+2. Requirements
+INPUT
+the number users are thinking.
+
+PROCESSING: the objective broken down into major parts
+rand a number 
+compare the rand number and the user's number
+out put result
+
+
+OUTPUT:
+I really want a number between 1 and 10.  
+What is your guess [1-10]? 
+You guessed it! or try again.
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+number1 rand number
+number2 user's number
+
+3. Instructions
+10 instruction
+11 rand a number
+16 input the user's number
+20 compare two numbers
+21 if they are not the same. go back to 11
+25 if they are the same
+26 output You guessed it!
+
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:   2 7 and  Input values if any: and expected results. 
+
+10 instruction
+11 8
+16 2
+20 2!=8
+21 go back to 11
+11 7
+16 7
+25 7==7
+26 you guessed it!
+

@@ -1,0 +1,35 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+
+2. Requirements
+INPUT:
+C2F
+
+PROCESSING: the objective broken down into major parts
+input temperature from file
+use formula to calculate  F = 9 / 5 * C + 32
+output temperature.
+
+
+OUTPUT:
+XXX Celsius equals XXX Fahrenheit
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+celsius temperature
+fahrenheit temperature
+
+
+3. Instructions
+10 input from file
+15 calculate
+20 output
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:  100   and  Input values if any: and expected results. 
+10 100
+15 212.0
+20 100. Celsius equals 212.0 Fahrenheit

@@ -1,0 +1,45 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective: calculator
+
+2. Requirements
+INPUT:
+number1
+number2
+what to do 
+
+
+PROCESSING: the objective broken down into major parts
+input number1
+input number2
+what to do
+
+
+OUTPUT:
+number1 (what to do) number2 equal number3
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+number1 first number
+number2 second number
+do what to do
+number3 result
+
+3. Instructions
+10 instructions
+11 input number1
+12 input number2
+15 input what to do
+20 calculate
+25 output result with sentences.
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:  4 3 +    and  Input values if any: and expected results. 
+
+10 instructions
+11 4
+12 3
+15 +
+20 4+3=7
+25 4 plus 3 equal 7

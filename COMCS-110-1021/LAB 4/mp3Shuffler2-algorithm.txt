@@ -1,0 +1,47 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective
+mp3Shuffler1
+2. Requirements
+INPUT:
+songs.txt
+user choice
+
+
+PROCESSING: the objective broken down into major parts
+read list from songs.txt
+ask to play a song.
+repeat
+
+OUTPUT:
+song name
+play a song?
+
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+songs.txt
+songs array
+user choice
+
+3. Instructions
+10 instructions
+15 create a array
+20 read songs.txt
+25 ask to play
+30 user choice
+35 output songs name
+25 ask again (loop 25)
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
+
+10 instructions
+15 create a array
+20 read songs.txt
+25 ask to play 
+30 user choice Y
+35 output songs name Hello world
+25 ask again (loop) 
+30 N 

@@ -1,0 +1,73 @@
+Name: kunming zhu
+Course: COMSC-110-1021
+
+1. Objective:
+Mastermind 
+
+2. Requirements
+INPUT:
+4 colors in 4 positions from blue, yellow, red, and green.
+
+
+PROCESSING: the objective broken down into major parts
+Computer make a random with 4 colors in 4 positions.
+human guesses ( no more then 10 times)
+Result and ask if want to play more
+
+
+OUTPUT:
+Instruction 
+"Ok, please make a guess."
+"Correct colors: number, correct positions: number."
+"Sorry, you tried." Or "Good, you win!"
+"Do you want to play more?"
+
+DATA: data item name, type of data, units of measure, valid values, formatting
+c1 computer position 1
+C2 computer position 2
+C3 computer position 3
+C4 computer position 4
+
+H1 human position 1
+H2 human position 1
+H3 human position 1
+H4 human position 1
+
+Count trying times
+
+CountCCR 
+countCCB
+countCCY
+countCCG
+
+countHCR
+countHCB
+countHCY
+countHCG
+
+
+Sumc the number of the same colors
+Sump the number of the same positions.
+
+user choice
+
+
+
+
+
+3. Instructions
+10 instructions
+15 computer make one rule
+16 ask human input
+20 human input
+25 check how many colors are the same.
+30 check how many positions are the same.
+35 output the number of same colors, and the number of same positions.
+40 if incorrect loop to 16 and count 1 time.
+45 if correct output "GOOD!"
+50 if time=10 output "sorry!"
+55 ask if human want to play more.
+
+
+4. Test Cases: simplest test case first (performed algorithm insterction result of showing inte, list all other test cases definitions
+Test Case#1: What is being tested:     and  Input values if any: and expected results. 
